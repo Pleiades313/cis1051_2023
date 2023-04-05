@@ -11,4 +11,4 @@ One classmate, Macey Schriefer
 
 ## Do you have any questions of your own?
 
-How can we make this a better project
+Is this a good project idea and how can we make it good?
