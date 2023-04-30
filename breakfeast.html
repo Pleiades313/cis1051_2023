@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+      <title>Philly Food Spots</title>
+      <style>
+         * {
+         box-sizing: border-box;
+         }
+         .center {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 50%;
+         }
+         .column {
+         float: left;
+         width: 33.33%;
+         padding: 20px;
+         }
+         .column2{
+         float: left;
+         width: 49.00%;
+         padding: 10px;
+         }
+         .column3{
+         float: left;
+         width: 98.00%;
+         padding: 10px;
+         }
+         .row::after {
+         content: "";
+         clear: both;
+         display: table;
+         }
+         @media screen and (max-width: 500px) {
+         .column {
+         width: 100%;
+         }
+         }
+         .p {
+         font-family: "Courier New", Courier, monospace;
+         font-size: 15px;
+         }
+         .h1 {
+         font-family: "Courier New", Courier, monospace;
+         background-color: #000000;
+         color: white;
+         border: 10px solid rgba(255, 255, 255, 0.37);
+         margin: 20px;
+         padding: 20px;
+         text-align: center;
+         }
+         .h2 {
+         font-family: "Courier New", Courier, monospace;
+         color: black;
+         border: 5px solid rgb(0, 0, 0);
+         margin: 20px;
+         padding: 8px;
+         text-align: center;
+         }
+         .h3 {
+         margin: 20px;
+         text-align: center;
+         font-family: "Courier New", Courier, monospace;
+         border: 5px solid rgba(0, 0, 0, 0.37);
+         margin: 20px;
+         padding: 5px;
+         }
+         .h4 {
+         margin: 20px;
+         text-align: center;
+         font-family: "Courier New", Courier, monospace;
+         }
+         .h5 {
+         margin: 10px;
+         text-align: center;
+         font-family: "Courier New", Courier, monospace;
+         }
+         .h6 {
+            margin: 20px;
+            text-align: center;
+            font-family: "Courier New", Courier, monospace;
+            }
+      </style>
+   </head>
+   <body>
+      <h1 class="h1">
+         <a
+            href="index.html"
+            ><b>Back to Home Page</b></a>
+      </h1>
+      <img
+         src="pics/breakfast.jpg"
+         style="width: 80%; height: 80%"
+         class="center"
+         alt="philly"
+         />
+      <h2 class="h2">
+         <a 
+            href = "pages/dinner.html"
+            style = "text-decoration: none"
+            ><b>Brunch</b></a>
+      </h2>
+      <h3 class="h6">
+         (Click the name of the place to be sent to the website.)
+     </h3>
+      <!-- Breakfest section we can remove this one get the subpages working -->
+      <div class="row">
+         <div class="column">
+            <img src="pics/egg.jpg" alt="Mango Mango" style="width: 100%" />
+            <h3 class="h3">
+               <a
+                  href="https://greeneggscafe.com/"
+                  style="text-decoration: none"
+                  ><b>Green Eggs Cafe</b></a>
+            </h3>
+            <h4 class="h4">
+               This restaurant serves brunch items and has 6 different locations in Philly.
+               Some of it's specialites include their variety of french toast flavors to savory
+               omlettes. Come visit in one of their locations if you get to visit.
+            </h4>
+            <h5 class="h5">
+               <b>Locations: 1306 Dickinson St/ 1301 Locust St/ 2327 Gaul St/ 33 S. 18th St/ 2800 West Girard Ave</b>
+            </h5>
+         </div>
+         <div class="column">
+            <img src="pics/fitz.jpg" alt="Jeni's Ice" style="width: 100%" />
+            <h3 class="h3">
+               <a href="https://www.facebook.com/FitzwaterCafe/4" style="text-decoration: none"
+                  ><b>Fitzwater Cafe</b></a>
+            </h3>
+            <h4 class="h4">
+               This is a cafe specializing in brunch menus. It serves classic breakfast items
+               such as their french toasts and sandwiches. 
+            </h4>
+            <h5 class="h5">
+               <b>Location: 728 S 7th St, Philadelphia, PA</b>
+            </h5>
+         </div>
+         <div class="column">
+            <img src="pics/front.jpg" alt="Water Ice" style="width: 100%" />
+            <h3 class="h3">
+               <a href="https://frontstreetcafe.net/" style="text-decoration: none"
+                  ><b>Front Street Cafe</b></a
+                  >
+            </h3>
+            <h4 class="h4">
+               This brunch place located in Fishtown has a variety of delicious foods 
+               such as the classic eggs benedict to salmon deviled eggs. Their specials 
+               are constanting rotating so there's always something new.
+            </h4>
+            <h5 class="h5">
+               <b>Location: 1253 N Front St, Philadelphia, PA 19122</b>
+            </h5>
+         </div>
+      </div>
+   </body>
