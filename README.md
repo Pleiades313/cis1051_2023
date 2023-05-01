@@ -1,5 +1,5 @@
 # final_project
-link to video: 
+link to video: https://youtu.be/f9r-L4wJDLo
 
 Creators: Tin Tin Poon, Macey Schriefer
 
